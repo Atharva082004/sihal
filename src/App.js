@@ -155,17 +155,5 @@ function App() {
   );
 }
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { ClerkAuthProvider } from './clerk';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <ClerkAuthProvider>
-      <App />
-    </ClerkAuthProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
 export default App;
